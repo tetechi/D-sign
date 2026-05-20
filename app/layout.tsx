@@ -4,6 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "デジタル印鑑メーカー | D-sign",
   description: "オリジナルの印鑑・ハンコをデザインしてPNGダウンロード",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
